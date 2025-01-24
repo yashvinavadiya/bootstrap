@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container-xl mt-3 sticky-top ">
+
+            <div class="nav-section d-flex justify-content-between  align-items-center ">
+                <div class="nav-item">
+                    <div class="d-md-block d-lg-none">
+
+                        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                                class="fa-solid fa-bars ic"></i></button>
+
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
+                            tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">menu</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul
+                                    class=" mt-3  d-flex  d-lg-flex justify-content-center align-items-center gap-3 list-unstyled ">
+                                    <li><a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                    </li>
+                                    <li><a href="#" class="nav-link"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                    <li><a href="#" class="nav-link"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#" class="nav-link">
+                                            <i class="fa-solid fa-rotate-right"></i></a></li>
+                                    <li><a href="#" class="nav-link"><i class="fa-regular fa-user"></i></a></li>
+                                    <li><a href="#" class="nav-link"><i class="fa-regular fa-bell"></i></a></li>
+                                    <li><a href="#" class="nav-link"><i class="fa-solid fa-bars"> MENU</i></a></li>
+                                </ul>
+                                <ul class="menu d-flex flex-column  list-unstyled gap-3  ">
+                                    <li><a href="#" class="nav-link fs-6 fw-normal">Home</a></li>
+                                    <li><a href="#" class="nav-link fs-6 fw-normal">Shop</a></li>
+                                    <li><a href="#" class="nav-link fs-6 fw-normal">Product</a></li>
+                                    <li><a href="#" class="nav-link fs-6 fw-normal">Templates</a></li>
+                                    <li><a href="#" class="nav-link fs-6 fw-normal">Page</a></li>
+                                    <li><a href="#" class="nav-link fs-6 fw-normal">Mega</a></li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <ul
+                        class=" mt-3  d-flex  d-lg-flex justify-content-center align-items-center gap-3  list-unstyled d-lg-block  d-none">
+                        <li><a href="#" class="nav-link fs-6 fw-normal">Home</a></li>
+                        <li><a href="#" class="nav-link fs-6 fw-normal">Shop</a></li>
+                        <li><a href="#" class="nav-link fs-6 fw-normal">Product</a></li>
+                        <li><a href="#" class="nav-link fs-6 fw-normal">Templates</a></li>
+                        <li><a href="#" class="nav-link fs-6 fw-normal">Page</a></li>
+                        <li><a href="#" class="nav-link fs-6 fw-normal">Mega</a></li>
+
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="./img/logo.avif" alt="" class="img-fluid logo">
+                </div>
+                <div class="icon">
+                    <ul
+                        class=" mt-3  d-flex  d-lg-flex justify-content-center align-items-center gap-3 list-unstyled d-lg-block  d-none">
+                        <li><a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a href="#" class="nav-link"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                        <li><a href="#" class="nav-link"><i class="fa-regular fa-heart"></i></a></li>
+                        <li><a href="#" class="nav-link">
+                                <i class="fa-solid fa-rotate-right"></i></a></li>
+                        <li><a href="#" class="nav-link"><i class="fa-regular fa-user"></i></a></li>
+                        <li><a href="#" class="nav-link"><i class="fa-regular fa-bell"></i></a></li>
+                        <li><a href="#" class="nav-link"><i class="fa-solid fa-bars"> MENU</i></a></li>
+                    </ul>
+
+                    <div class="d-md-block d-lg-none">
+
+
+
+                        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i
+                                class="fa-solid fa-bag-shopping"></i></button>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                            aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="menu d-flex flex-column  list-unstyled gap-3  ">
+                                    <li><a href="#" class="nav-link"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li><a href="#" class="nav-link">
+                                            <i class="fa-solid fa-rotate-right"></i></a></li>
+                                    <li><a href="#" class="nav-link"><i class="fa-regular fa-user"></i></a></li>
+                                    <li><a href="#" class="nav-link"><i class="fa-regular fa-bell"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+      </div>
+
+
+      <!--banner-->
+
+      <div class="container-fluid">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mt-4">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active img1 position-relative" data-bs-interval="10000">
+               
+                <div class="carousel-caption d-none d-md-block  banner-1">
+                    <h5 class="h-2">Pink Elegance</h5>
+                    <p class="t2">New generation approach</p>
+                    <button class="btn btn-success">Chek Now</button>
+                </div>
+              </div>
+              <div class="carousel-item img2 position-relative" data-bs-interval="2000">
+              
+                <div class="carousel-caption d-none d-md-block banner-2">
+                  <h5 class="h-3">Floral Patterned Dresses</h5>
+                  <p class="t3">Reflect nature's patterns on the street!</p>
+                  <button class="btn btn-primary">Chek Product</button>
+                </div>
+              </div>
+              <div class="carousel-item img3 position-relative">
+              
+                <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle mt-4">
+                    <h1 class="h-1">Baraati Edit 2023</h1>
+                    <p class="t1">New generation approach</p>
+                    <button class="btn btn-success">Chek Now</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <div class="line d-flex justify-content-center align-items-center">
+            <p class="text-light mt-3">BIGGEST CELEBRATION OFFER 30% OFF ON ANARKALI COLLECTION - SHOP NOW</p>
+
+          </div>
+
+      </div>
+      <!--end-->
+
+      <section>
+        <div class="container text-center">
+            <div class="row mt-5">
+              <div class="col-lg-3 col-md-6">
+                <img src="./img/img-1.avif" alt="" class="img-fluid im">
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <img src="./img/img-2.avif" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-3 col-md-6">
+            <img src="./img/img-3.avif" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <img src="./img/img-4.avif" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section>
+        <div class="container">
+            <div class="row mt-5">
+
+
+                <div class="col-xl-2  col-lg-4 col-md-12">
+                   <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                    <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                    <div class="t4">WOMEN T-SHIRT</div>
+                    <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                   </div>
+                </div>
+
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2  col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-4 col-md-12">
+                    <div class="d-flex justify-content-between border border-dark-subtle rounded-pill align-items-center p-1">
+                        <div><img src="./img/n-1.avif" alt="" class="img-fluid rounded-circle y2"></div>
+                        <div class="t4">WOMEN T-SHIRT</div>
+                        <div class="bg-danger-subtle rounded-circle y1 text-center d-flex align-items-center justify-content-center">18</div>
+                       </div>
+                </div>
+
+            </div>
+
+        </div>
+      </section>
+
+
+
+      
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
