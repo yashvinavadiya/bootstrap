@@ -86,6 +86,16 @@
 }
 .y2{
     height: 40px;
-    width: 40px;
-   
+    width: 40px;  
+}
+.y:hover{
+    background-color: rgba(241, 108, 108, 0.637);
+    cursor: pointer;
+}
+.box1{
+    width: 500px;
+}
+.t5:hover{
+    color: gray;
+
 }
